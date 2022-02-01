@@ -2,7 +2,7 @@ package ui.projetquiz;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-
+import android.os.Handler;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +13,8 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Random;
+
+import affaire.question.Question;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button btn_one, btn_two, btn_three, btn_four;
@@ -107,7 +109,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .setNegativeButton("Exit", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+                        Intent intent = new Intent(MainActivity.this, UserFinal.class);
+                        startActivity(intent);
                         System.exit(0);
+
+
+
                     }
                 });
         alertDialogBuilder.show();

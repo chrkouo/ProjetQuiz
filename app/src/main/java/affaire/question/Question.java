@@ -1,4 +1,4 @@
-package ui.projetquiz;
+package affaire.question;
 
 public class Question {
 

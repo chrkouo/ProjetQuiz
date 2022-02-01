@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/1834343/AndroidStudioProjects/ProjetQuiz/app/src/main/res/layout/activity_login.xml" value="0.3671875" />
         <entry key="..\:/Users/1834343/AndroidStudioProjects/ProjetQuiz/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/1834343/AndroidStudioProjects/ProjetQuiz/app/src/main/res/layout/activity_user_final.xml" value="0.3671875" />
       </map>
     </option>
   </component>
